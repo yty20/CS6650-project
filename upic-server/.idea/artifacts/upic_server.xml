@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="upic-server">
+    <output-path>$PROJECT_DIR$/out/artifacts/upic_server</output-path>
+    <root id="archive" name="upic-server.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="upic-server" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
