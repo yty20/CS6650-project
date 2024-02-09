@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class ClientManager {
-    private static final int THREAD_COUNT = 24;
+    private static final int THREAD_COUNT = 32;
     private static final int NEEDED_THREAD = 200;
     private final ExecutorService executor = Executors.newFixedThreadPool(THREAD_COUNT);
     private final LiftRideEventQueue eventQueue;
